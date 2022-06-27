@@ -1,0 +1,82 @@
+body {
+    background: #F3F5FC;
+    padding: 40px;
+}
+
+h1 {
+    display: inline-block;
+    width: 120px;
+    height: 48px;
+}
+
+.img-responsiva {
+    max-width: 100%;
+    height: auto;
+}
+
+.seccion-principal {
+    display: inline-block;
+    width: 886px;/*960*/
+    height: 904px;
+    vertical-align: top;
+}
+
+.seccion-principal textarea {
+    position: absolute;
+    left: 200px;
+    top: 168px;
+    width: 577px;
+    height: 60%;
+    resize: none;
+}
+
+.legenda {
+    position: absolute;
+    left: 200px;
+    top: 851px;
+
+}
+
+.botones {
+    position: absolute;
+    left: 200px;
+    top: 885px;
+}
+
+.seccion-texto-encriptado {
+    position: absolute;
+    left: 926px;
+    top: 40px;
+    display: inline-block;
+    width: 400px;
+    height: 944px;
+    background: #FFF;
+}
+
+.con-texto {
+    padding: 32px;
+    display: none;
+}
+
+.con-texto textarea {
+    width: 336px;
+    height: 781px;
+    resize: none;
+    margin-bottom: 32px;
+}
+
+.sin-texto {
+    text-align: center;
+}
+
+.sin-texto img {
+    margin-top: 243px;
+}
+
+.aviso {
+    margin-top: 32px;
+}
+
+.descripcion-aviso {
+    margin-top: 16px;
+}
