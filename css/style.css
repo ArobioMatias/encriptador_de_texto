@@ -1,6 +1,15 @@
 body {
     background: #F3F5FC;
     padding: 40px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+input {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 
 h1 {
@@ -30,6 +39,9 @@ h1 {
     resize: none;
     border: 0;
     background: #F3F5FC;
+    font-size: 30px;
+    line-height: 150%;
+    color: #0A3871;
 }
 
 .seccion-principal textarea:focus{
@@ -46,6 +58,10 @@ h1 {
 
 .legenda span {
     margin-left: 8px;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
 }
 
 .botones {
@@ -64,6 +80,8 @@ h1 {
     border-radius: 24px;
     border: 1px solid #0A3871;
     color: #FFF;
+    font-size: 16px;
+    line-height: 19px;
 }
 
 .btn-desencriptar {
@@ -73,6 +91,8 @@ h1 {
     border: 1px solid #0A3871;
     border-radius: 24px;
     color: #0A3871;
+    font-size: 16px;
+    line-height: 19px;
 }
 
 .seccion-texto-encriptado {
@@ -87,7 +107,7 @@ h1 {
 
 .con-texto {
     padding: 32px;
-    /*display: none;*/
+    display: none;
 }
 
 .con-texto textarea {
@@ -96,6 +116,9 @@ h1 {
     resize: none;
     margin-bottom: 25px;
     border: 0;
+    font-size: 24px;
+    line-height: 150%;
+    color: #495057;
 }
 
 .con-texto textarea:focus {
@@ -109,11 +132,15 @@ h1 {
     border-radius: 24px;
     background: #FFF;
     color: #0A3871;
+    font-size: 16px;
+    line-height: 19px;
 }
 
 .sin-texto {
+    width: 336px;
     text-align: center;
-    display: none;/* sacando la parte visible*/
+    margin: 0 auto;
+    /* display: none;*/
 }
 
 .sin-texto img {
@@ -121,9 +148,18 @@ h1 {
 }
 
 .aviso {
+    height: 58px;
     margin-top: 32px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #343A40;
 }
 
 .descripcion-aviso {
+    height: 48px;
     margin-top: 16px;
+    font-size: 16px;
+    line-height: 150%;
+    color: #495057;
 }
