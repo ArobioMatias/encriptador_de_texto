@@ -14,7 +14,7 @@
 
         <main>
             <section class="seccion-principal">
-                <textarea cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+                <textarea id="entrada-texto" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
                 <div class="legenda">
                     <img src="img/bi_exclamation-circle-fill.png" alt="signo de exclamacion">
                     <span>Solo letras minusculas y sin acentos</span>
@@ -26,8 +26,8 @@
             </section>
 
             <section class="seccion-texto-encriptado">
-                <div class="con-texto">
-                    <textarea cols="30" rows="10" readonly></textarea>
+                <div class="con-texto invisible">
+                    <textarea id="salida-texto" cols="30" rows="10" readonly></textarea>
                     <input class="btn-copiar" type="button" value="Copiar">
                 </div>
                 <div class="sin-texto">
@@ -38,4 +38,6 @@
             </section>
         </main>
     </body>
+
+    <script src="js/encriptar.js"></script>
 </html>

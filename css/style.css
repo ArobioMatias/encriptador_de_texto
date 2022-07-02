@@ -107,7 +107,7 @@ h1 {
 
 .con-texto {
     padding: 32px;
-    display: none;
+    /*display: none;*/
 }
 
 .con-texto textarea {
@@ -162,4 +162,12 @@ h1 {
     font-size: 16px;
     line-height: 150%;
     color: #495057;
+}
+
+.invisible {
+    display: none;
+}
+
+.visible {
+    display: block;
 }
