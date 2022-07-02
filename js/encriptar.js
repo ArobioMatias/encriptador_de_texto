@@ -16,7 +16,7 @@ botonEncriptar.addEventListener("click", function(){
     var texto = textareaEntrada.value;
 
     if(hayTexto(texto)){
-        texto = transformarTexto(texto);
+        texto = codificar(texto);
         cambiarAreaVisualizada(true);
         textareaSalida.value = texto;
     }else{
@@ -26,7 +26,7 @@ botonEncriptar.addEventListener("click", function(){
     
 });
 
-function transformarTexto(texto){
+function codificar(texto){
     texto = texto.replace(/e/g, 'enter');
     texto = texto.replace(/i/g, 'imes');
     texto = texto.replace(/a/g, 'ai');
