@@ -16,6 +16,7 @@ h1 {
     display: inline-block;
     width: 120px;
     height: 48px;
+    text-align: center;
 }
 
 .img-responsiva {
@@ -191,4 +192,71 @@ h1 {
 
 .visible {
     display: block;
+}
+
+@media screen and (max-width: 480px){
+
+    body {
+        padding: 16px;
+    }
+
+    h1 {
+        width: 32px;
+        padding: 8px 0;
+    }
+
+    .seccion-principal textarea, .legenda, .botones, .seccion-texto-encriptado {
+        position: static;
+    }
+
+    .seccion-principal {
+        height: auto;
+        margin-bottom: 64px;
+    }
+
+    .seccion-principal, .seccion-principal textarea {
+        width: 100%;
+    }
+
+    .seccion-principal textarea {
+        margin-top: 56px;
+        font-size: 29px;
+        height: 290px;
+        margin-bottom: 9px;
+    }
+
+    .botones {
+        width: auto;
+        height: auto;
+        margin-top: 16px;
+    }
+
+    .btn-encriptar {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .btn-desencriptar {
+        width: 100%;
+    }
+
+    .seccion-texto-encriptado {
+        width: 95%;
+        height: auto;
+        display: block;
+        margin: 0 auto 24px auto;
+        padding: 32px 0;
+    }
+
+    .sin-texto {
+        width: auto;
+    }
+
+    .sin-texto img {
+        display: none;
+    }
+
+    .aviso {
+        margin: 0;
+    }
 }
