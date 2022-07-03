@@ -118,6 +118,7 @@ h1 {
     width: 400px;
     height: 944px;
     background: #FFF;
+    border-radius: 32px
 }
 
 .con-texto {
@@ -246,6 +247,19 @@ h1 {
         display: block;
         margin: 0 auto 24px auto;
         padding: 32px 0;
+    }
+
+    .con-texto {
+        padding: 32px 32px 0 32px;
+    }
+
+    .con-texto textarea {
+        width: 100%;
+        height: auto;
+    }
+
+    .btn-copiar {
+        width: 100%;
     }
 
     .sin-texto {
