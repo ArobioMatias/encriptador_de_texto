@@ -49,6 +49,10 @@ h1 {
     outline: none;
 }
 
+.seccion-principal textarea::placeholder{
+    color: #0A3871;
+}
+
 .legenda {
     position: absolute;
     left: 200px;
@@ -273,4 +277,92 @@ h1 {
     .aviso {
         margin: 0;
     }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 481px) {
+    
+    body {
+        padding: 40px;
+    }
+
+    h1 {
+        width: 32px;
+        padding-top: 33px;
+    }
+
+    .seccion-principal textarea, .legenda, .botones, .seccion-texto-encriptado {
+        position: static;
+    }
+
+    .seccion-principal {
+        height: auto;
+        margin-bottom: 64px;
+    }
+
+    .seccion-principal, .seccion-principal textarea {
+        width: 100%;
+    }
+
+    .seccion-principal textarea {
+        margin-top: 116px;
+        font-size: 32px;
+        height: auto;
+        margin-bottom: 9px;
+    }
+
+    .legenda {
+        margin-top: 64px;
+    }
+
+    .botones {
+        width: auto;
+        margin-top: 16px;
+    }
+
+    .btn-encriptar {
+        width: 48%;
+    }
+
+    .btn-desencriptar {
+        width: 48%;
+    }
+
+    .seccion-texto-encriptado {
+        width: 95%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        padding: 32px 0;
+    }
+
+    .con-texto {
+        padding: 32px 32px 0 32px;
+    }
+
+    .con-texto textarea {
+        width: 100%;
+        height: auto;
+    }
+
+    .btn-copiar {
+        width: 100%;
+    }
+
+    .sin-texto {
+        width: auto;
+    }
+
+    .sin-texto img {
+        display: none;
+    }
+
+    .aviso {
+        margin: 0;
+        height: 29px;
+    }
+
+    .descripcion-aviso {
+        height: 24px;
+    }
+
 }
